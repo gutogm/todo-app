@@ -8,7 +8,7 @@ from fabric.api import *
 # fab -H localhost
 
 env.use_ssh_config = False
-env.key_filename = '/home/guto/.ssh/id_rsa.pub'
+env.key_filename = '~/.ssh/id_rsa.pub'
 
 @hosts("192.168.0.246")
 def todo():
